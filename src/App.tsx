@@ -22,7 +22,7 @@ import './App.css'
             {id: "1", brand: "Marcedes", model:"GLC"},
             {id: "2", brand: "BMW", model:"3er"},
             {id: "3", brand: "Volvo", model:"X60"}
-            ];
+        ];
 
         return(
             <ul>
