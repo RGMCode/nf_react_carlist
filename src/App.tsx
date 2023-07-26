@@ -1,5 +1,6 @@
 
-import './App.css'
+// import './App.css'
+import './index.css'
 
     // function CarList() {
     //     const  cars = ["Mercedes", "Volvo", "BMW", "Renault", "Dacia"]
@@ -25,8 +26,8 @@ import './App.css'
         ];
 
         return(
-            <ul>
-                {cars.map(car => <li key={car.id}>{car.brand} {car.model}</li>)}
+            <ul className={"container"}>
+                {cars.map(car => <li className={"item"} key={car.id}>{car.brand} {car.model}</li>)}
             </ul>
         );
     }
